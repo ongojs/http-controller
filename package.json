@@ -1,0 +1,39 @@
+{
+  "name": "@ongojs/http-controller",
+  "version": "0.0.0",
+  "description": "http-controller",
+  "main": "index.js",
+  "bin": {
+    "http-controller": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/http-controller.git"
+  },
+  "keywords": [
+    "http-controller"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/http-controller/issues"
+  },
+  "homepage": "https://github.com/ongojs/http-controller#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "@ongojs/controller": "../controller",
+    "@ongojs/couleurs": "../couleurs"
+  }
+}
